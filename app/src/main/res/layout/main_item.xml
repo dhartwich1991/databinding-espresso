@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+                name="item"
+                type="de.freenet.espresso_databinding.ui.main.MainItem"/>
+
+        <import type="java.lang.String"/>
+
+    </data>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  tools:text="Name"
+                  android:text="@{item.name}"/>
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  tools:text="Size"
+                  android:text="@{String.valueOf(item.size)}"/>
+    </LinearLayout>
+</layout>
