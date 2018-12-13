@@ -5,7 +5,7 @@ A repository showcasing how to run espresso tests with Android data binding
 
 MIT License
 
-Copyright (c) [year] [fullname]
+Copyright (c) 2018 freenet.de GmbH
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
